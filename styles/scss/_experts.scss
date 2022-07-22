@@ -1,0 +1,37 @@
+.experts-pink {
+    background-color: $chablis;
+    height: 1156px;
+}
+.experts {
+    max-width: 1044px;
+    margin: 15px 0 0 198px;
+    padding-top: 160px;
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;   
+        color: $primary-color;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    &__text {
+        font-weight: 700;
+        line-height: 50px;
+        font-size: 40px;
+        letter-spacing: 0.2px;
+        color: $ebony-color;
+        margin: 0;
+
+    }
+    &__subtext {
+        max-width: 469px;
+        margin: 0;
+        padding-top: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+
+}

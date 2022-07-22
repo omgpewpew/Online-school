@@ -1,0 +1,46 @@
+.cards {
+    &__img {
+        background-image: url(/src/cards-img-first.png);
+        width: 341px;
+        height: 300px;
+        margin: 80px 0 0 195px;
+        background-size: cover;
+        position: relative;
+    }
+    &__sale {
+        width: 51px;
+        height: 24px;
+        background-color: $danger-color;
+        z-index: 2;
+        color: $light-color;
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 12px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+}
+.button__icon {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.img__icon {
+    @include flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    position: absolute;
+    bottom: 21px;
+    left: 96px;
+}

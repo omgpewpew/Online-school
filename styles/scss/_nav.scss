@@ -1,0 +1,74 @@
+.nav {
+    @include flex;
+    flex: row;
+    padding: 20px 59px 0;
+    justify-content: baseline;
+    align-items: center;
+    .item--home {
+        padding-right: 3px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .item--school {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        padding-left: 135px;
+    }
+    .item--login {
+        padding-left: 230px;
+    }
+    button {
+        cursor: pointer;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        border: none;
+        border-radius: 5px;
+    }
+.item--login button {
+    color: $primary-color;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+}
+.item--join button {
+    color: $light-color;
+    margin-left: 39px;
+    width: 137px;
+    height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    background-color: $primary-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    img {
+        transform: translateX(14px);
+    }
+}
+}
+.item__links {
+    @include flex;
+    gap: 21px;
+    padding-left: 75px;
+    word-spacing: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-bottom: 2px;
+}

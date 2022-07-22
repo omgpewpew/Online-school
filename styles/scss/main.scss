@@ -1,0 +1,25 @@
+:root {
+    font-family: 'Montserrat', sans-serif; 
+    max-width: 1440px;
+}
+
+
+// Базовые подключения
+@import 'mixins.scss';
+@import 'vars.scss';
+
+
+// Компоненты страницы
+@import 'nav.scss';
+@import 'students.scss';
+@import 'features.scss';
+@import 'customers.scss';
+@import 'clients.scss';
+@import 'everyclient.scss';
+@import 'experts.scss';
+@import 'cards.scss';
+
+// Общие стили
+.nav, .students, .features {
+    background-color: $light-gray;
+}

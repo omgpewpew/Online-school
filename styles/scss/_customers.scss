@@ -1,0 +1,23 @@
+.customers {
+    @include flex;
+    margin: 80px 198.5px 0;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    gap: 30px;
+        &__item {
+            width: 238px;
+            height: 104px;
+                .item__text {
+                    font-weight: 700;
+                    line-height: 80px;
+                    font-size: 58px;
+                    letter-spacing: 0.2px;
+                    text-align: center;
+                    color: $primary-color;
+                }
+            }
+
+}

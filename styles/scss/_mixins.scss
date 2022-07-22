@@ -1,0 +1,5 @@
+// flex
+@mixin flex {
+    display: flex;
+    flex-wrap: nowrap;
+}

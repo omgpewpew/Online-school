@@ -1,0 +1,39 @@
+.everyclient {
+    @include flex;
+    padding: 329px 195px 140px 195px;
+    &__text {
+        flex-direction: column;
+        .text__title {
+            font-weight: 700;
+            line-height: 50px;
+            font-size: 40px;
+            letter-spacing: 0.2px;
+            color: $ebony-color;
+            margin: 0;
+            padding-top: 19px;
+        }
+        .text__about {
+            font-weight: 400;
+            line-height: 20px;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: $gray-color;
+            width: 351px;
+            height: 60px;
+            margin: 0;
+            padding-top: 34px;
+        }
+        .text__ref {
+            display: block;
+            font-weight: 700;
+            line-height: 24px;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: $primary-color;
+            padding-top: 34px;
+        }
+    }
+    &__picture {
+        margin: -88px 0px 17px 111px;
+    }
+}

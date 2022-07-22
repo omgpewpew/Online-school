@@ -1,0 +1,73 @@
+.students {
+    padding: 97px 50px 0 197px;
+    margin: 0;
+        &__join {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: $primary-color;
+            padding-bottom: 5px;
+        }
+        &__trust {
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 80px;
+            letter-spacing: 0.2px;
+            max-width: 542px;
+            margin: 29px 0 0 0;
+            padding-right: 10px;
+            color: $ebony-color;
+        }
+        &__text {
+            max-width: 496px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            padding-top: 18px;
+            color: $gray-color;
+        }
+        &__button {
+            border-radius: 5px;
+            @include flex;
+            justify-content: flex-start;
+            gap: 10px;
+            margin-top: 35px;
+            :hover {
+                cursor: pointer;
+            }
+            .button__quote {
+                background-color: $primary-color;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                min-width: 193px;
+                min-height: 52px;
+                border-color: $primary-color;
+                border-radius: 5px;
+                color: $light-color;
+            }
+            .button__more {
+                min-width: 162px;
+                max-height: 52px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: 0.2px;
+                color: $primary-color;
+                background-color: $light-color;
+                border: $primary-color 1px solid;
+                border-radius: 5px;
+            }
+        }
+}
+.students__image {
+    position: absolute;
+    transform: translate(403px, -490px);
+    z-index: 3;
+}
